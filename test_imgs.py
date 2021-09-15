@@ -56,7 +56,7 @@ def get_meta(imageName):
     print('Flight ID: {0}'.format(meta.get_item('XMP:FlightId')))
     print('Focal Length: {0}'.format(meta.get_item('XMP:FocalLength')))
 
-    print('****************** gte meta ********************')
+    print('****************** get meta ********************')
     check_panel(imageName,meta,imageRaw,bandName)
 
 def check_panel(imageName,meta,imageRaw,bandName):
